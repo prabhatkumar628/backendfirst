@@ -1,0 +1,24 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "this is a simple project of videotube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chai",
+    "or",
+    "code",
+    "project",
+    "app"
+  ],
+  "author": "Prabhat",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
