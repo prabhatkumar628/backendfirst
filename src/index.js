@@ -14,7 +14,7 @@ connectDB()
         res.send("<h1>This is api data page</h1>")
     })
     app.get("/about", (req, res)=>{
-        res.send("This is about page")
+        res.send("This is")
     })
     app.listen(port, ()=>{
         console.log(`server is running on port: http://localhost:${port}`)
