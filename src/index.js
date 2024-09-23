@@ -2,7 +2,7 @@ import connectDB from "./db/index.js";
 import dotenv from "dotenv"
 import { app } from "./app.js";
 dotenv.config({path: "./env"})
-const port = process.env.PORT||8000
+const port = process.env.PORT|| 3000
 
 connectDB()
 .then(()=>{
@@ -11,7 +11,7 @@ connectDB()
         throw error
     })
     app.listen(port, ()=>{
-        console.log(`server is running on port:${port}`)
+        console.log(`server is running on port: http://localhost:${port}`)
     })
     
 })
