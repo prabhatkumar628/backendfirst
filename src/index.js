@@ -10,6 +10,12 @@ connectDB()
         console.log("error", error)
         throw error
     })
+    app.get("/data", (req, res)=>{
+        res.send("<h1>This is api data page</h1>")
+    })
+    app.get("/about", (req, res)=>{
+        res.send("This is about page")
+    })
     app.listen(port, ()=>{
         console.log(`server is running on port: http://localhost:${port}`)
     })
